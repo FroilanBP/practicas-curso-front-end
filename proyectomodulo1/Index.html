@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto Modulo 1 FB</title>
+<link rel="stylesheet" href="Styles.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="Script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+    <input type="text" id="nuevaTarea" placeholder="Añadir nueva tarea">
+    <button id="agregarTarea" type="button" onclick="AgregarTarea()">Añadir</button>
+    <ul id="listaTareas"></ul>
+      </div>
+<script>
+    $(document).ready(function () {
+        LoadScripts();
+    })
+</script>
+
+
+
+</body>
+
+</html>
